@@ -1,0 +1,10 @@
+name1 = localStorage.getItem("uname1");
+name2 = localStorage.getItem("uname2");
+var player1_score = 0;
+var player2_score = 0;
+document.getElementById("player1_name").innerHTML = name1 + " : ";
+document.getElementById("player2_name").innerHTML = name2 + " : ";
+document.getElementById("player1_score").innerHTML = player1_score;
+document.getElementById("player2_score").innerHTML = player2_score;
+document.getElementById("player_question").innerHTML = "<h3>Question Turn : " + name1 + "</h3>";
+document.getElementById("player_answer").innerHTML = "<h3>Answer Turn : " + name2 + "</h3>";
